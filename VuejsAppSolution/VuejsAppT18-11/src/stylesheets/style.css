@@ -1,0 +1,36 @@
+#container {
+    width: 900px;
+    height: 750px;
+    margin: 20px auto;
+    border: 1px solid #444;
+    padding: 30px;
+    box-shadow: 2px 2px 10px #333;
+    font-family: Arial;
+}
+.page-title {
+    font-size: 1.2em;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.filter label{
+    display: inline-block;
+    padding:5px 30px;
+}
+/*----------- 表格 -----------*/
+#shop-table {
+    height:65%;
+    /* table樣式使用bootstrap */
+}
+/*----------- 寬度 -----------*/
+.width-large {
+    width: 40%;
+}
+.width-small {
+    width: 5%;
+}
+/*----------- 貼齊 -----------*/
+.justify-left {
+    text-align: left;
+}
